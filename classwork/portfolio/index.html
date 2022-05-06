@@ -6,18 +6,22 @@ Date Created: Today's date: April 22, 2022
 Most recent revision:April 29,2022
 -->
 
-<html>
+<html lang="en">
+
 	<head>
 		<title> Marlene Rodriguez Portfolio</title>
 	</head>
 
 	<body>
+	<main> <!-- The main element contains all blocks on the page -->
+
+		<header> <!The header element contains only the main title at this point.-->
 		<h1>Portfolio for Marlene Rodriguez</h1>
+		</header>
 
 	<nav> <!-- The nav element will include navigation buttons or links -->
-
 		<hr>
-		<p><a href="">Home</a></p>
+		<p><a href="index.html">Home</a></p>
 		<p><a href="projects.html">Projects</a></p>
 		<p><a href="contact.html">Contact</a></p>
 		<p><a href="testimonials.html">Testimonials</a></p>
@@ -25,18 +29,104 @@ Most recent revision:April 29,2022
 		<hr>
 	</nav>
 
+	<section> <!-- The section element contains three chunks we are using to sell ourselves in this page. -->
+
+		<article id="about"> <!-- This is the first chunk inside the section element.-->
+
 		<h2><em>About Me</em></h2>
+
+      		<a href="contact.html"><img src="images/portrait.jpg" alt="Portrait of Marlene Rodriguez"></a>
+
 		<p>Professional Web developer, providing clients with solutions, professional websites, web development and marketing tools acording to their needs. 
 		</p>
 		<p> We provide front and back end web development. <span style="background-color: lightgreen; border: thin solid lightblue;">Our websites are versatile, efficient, interactive and appealing </span></p>
-
-		<h2><em>Past Experience</em></h2>
-		<p>Please see the galerie of sample templates provided and feel free to browse throught our clients reviews, looking forward to speaking to you</p>
-
-		<h2><em>Hobbies</em></h2>
-		<p>I enjoy reading a good book, going for a walk  o having a coffee with some 					friends.</p>
+	
+		</article>
 		
-		<hr>
 
+
+		<article id="experience"> <!-- This is the second chunk inside the section element. -->
+		<h2><em>Past Experience</em></h2>
+
+      		<a href="projects.html"><img src="images/working.jpg" alt="Day at work"></a>
+
+		<table>
+		<caption>Employment History</caption>
+		<tr>
+			<th> Years of Employment</th>
+			<th> Title</th>
+			<th>Company</th>
+		</tr>
+
+		<tr>
+			<td>2021-Present</td>
+			<td>Apprentice</td>
+			<td>The Software Guild</td>
+			
+		</tr>
+			
+		<tr>
+			<td>2020-2022</td>
+			<td>Problem Solver</td>
+			<td> Amazon</td>
+		</tr>
+
+		<tr>
+			<td>2017-2020</td>
+			<td>Sales </td>
+			<td>Various Companies</td>
+		</tr>
+
+		</table>
+		</article>
+
+
+
+
+		<article id="hobbies"><!--This is the third chunk inside the section element.-->
+		<h2><em>Hobbies</em></h2>
+
+      		<a href="testimonials.html"><img src="images/outdoors.jpg" alt=" Enjoying the outdoors"></a>
+
+		<ul>
+			<li>Authors</li>
+		<ol> 
+			<li>Stephen King</li>
+			<li>Dan Brown</li>
+			<li>Robin Hobb</li>
+		</ol>
+			<li>Favorite Cities</li>
+		<ol>	
+			<li>Montreal</li>
+			<li>Paris</li>
+			<li>New York</li>
+		</ol>
+		</ul>
+
+		<ul>
+				<li>Beaches</li>
+			<ul>
+				<li>Cancun</li>
+				<li>Varadero</li>
+				<li>Puerto Plata</li>
+			</ul>
+
+			
+				<li>Outdoor Activities</li>
+			<ul>
+				<li>Zumba</li>
+				<li>Running</li>
+				<li>Beach Voleyball</li>
+			</ul>
+		</ul>
+			
+		
+		</article>
+
+	</section>
+	<footer> <!-- The footer is a block at the bottom of the page. -->
+		<hr>
+	</footer>
+	</main>
 	</body>
 </html>
