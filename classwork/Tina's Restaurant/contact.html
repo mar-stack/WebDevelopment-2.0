@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<!--
+    Name: Marlene Rodriguez 
+    Date Created: May 13,2023
+    Most recent revision:
+-->
+<html lang="en"> 
+    <head> 
+        <title>Tina's Diner</title>	
+    </head> 
+    
+    <body>
+        <header>
+		<hr>
+		Contact Us
+		<hr>
+            	<h1>Tina's Diner</h1>
+        </header>
+
+        <nav>
+		<hr >
+		<p><a href="index.html">Home</a></p>		
+		<p><a href="menu.html">Menu</a></p>
+		<p><a href="contact.html">Contact Us</a></p>
+	
+		<hr>
+        </nav>
+	
+	
+		<form action="submit.html" method="POST">
+
+		<p><label for="name"> Name: </label>		
+		<input type="text" id="name" name="name"><br></p>
+		
+		<p><label for="e-mail"> E-mail: </label>
+		<input type="e-mail" id="e-mail" name="e-mail"><br></p>
+
+		<p><label for="phone"> Phone: </label>
+		<input type="phone" id="phone" name="phone"<br></p>
+
+
+		<p><label for="reason-for-inquiry"> Reason for inquiry: </label>
+		<select id="reason" name="reason">
+
+		<option value="default" selected> Catering</option>
+		<option value="private-party">Private Parte</option>
+		<option value="Feedback"> Feedback</option>
+		<option value="Other"> Other</option>
+		</select>
+		</p>
+
+		<p><label for="additional-info"> Additional Information: </label><br>
+		<textarea id="additional-info" name="additional-info"></textarea>
+		
+			<p>
+			<leyend>Have you been to the restaurant? </leyend>
+			
+			<input type="radio" id="choice1" name="no" value="no">
+			<label for="choice1"> No </label>
+
+			<input type="radio" id="choice2" name="yes" value="yes">
+			<label for="choice2"> Yes </label>
+			</p>
+
+			<p>
+			<leyend> Best days to contact you:</leyend>
+			<input type="checkbox" id="m" name="m" value="m">
+			<label for="m"> M </label>
+			
+			<input type="checkbox" id="t" name="t" value="t">
+			<label for="t"> T </label>
+
+			<input type="checkbox" id="w" name="w" value="w">
+			<label for="w"> W </label>
+			
+			<input type="checkbox" id="th" name="th" value="th">
+			<label for="th"> Th </label>
+
+			<input type="checkbox" id="f" name="f" value="f">
+			<label for="f"> F </label>
+			</p>
+			<p>
+			<input type="submit" name="submit" value="submit">
+			</p>
+
+        <footer>
+
+        </footer>
+    </body> 
+</html>

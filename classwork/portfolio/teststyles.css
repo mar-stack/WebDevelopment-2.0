@@ -1,0 +1,18 @@
+body	{
+	background-color: lightgreen;
+}
+
+header, footer {
+
+	background-color: indianred;
+	color: white;
+}
+
+.border{
+	border: thick solid blue;
+}
+
+#experience {
+	border: thick dashed orange;
+}
+	
